@@ -1,0 +1,14 @@
+<table>
+  <thead>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Age</th>
+    <th>Adress</th>
+    <th>Email</th>
+  </tr>
+  </thead>
+  <tbody>
+  <app-student *ngFor="let item of studentAction$ | async"  [student]="item"></app-student>
+  </tbody>
+</table>
