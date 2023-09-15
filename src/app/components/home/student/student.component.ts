@@ -2,7 +2,7 @@ import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {StudentDTO} from "../../../models/api/StudentDTO";
 
 @Component({
-  selector: 'app-student',
+  selector: '.student',
   templateUrl: './student.component.html',
   styleUrls: ['./student.component.css']
 })

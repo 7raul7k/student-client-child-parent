@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { AddStudentComponent } from './components/add-student/add-student.component';
 import { UpdateStudentComponent } from './components/update-student/update-student.component';
 import { StudentComponent } from './components/home/student/student.component';
+import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { StudentComponent } from './components/home/student/student.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
